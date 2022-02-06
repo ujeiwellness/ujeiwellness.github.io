@@ -14,13 +14,13 @@
             <img class="logo" src="logo.png">
             <nobr class="logoname">UJei Wellness</nobr>
             <a href="#contact">CONTACT</a>
-            <a href="UJEI_wellness_main.html#pricing">PRICING</a>
-            <a href="UJEI_wellness_main.html#gallery">GALLERY</a>
+            <a href="index.html#pricing">PRICING</a>
+            <a href="index.html#gallery">GALLERY</a>
             <a href="UJEI_wellness_about.html">ABOUT</a>
-            <a href="UJEI_wellness_main.html">HOME</a>
+            <a href="index.html">HOME</a>
         </nav>
 
-        <iframe class = "calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237986CB&ctz=America%2FNew_York&src=aGFlbWkwMTE1QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cDJ0OWNyMzc3cmxrMnU5dXI3NTFuZWNraDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N211bmVqYmpuZmNhcnFnMG5lcm5nb2pwNWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%23C0CA33&color=%23E4C441&color=%230B8043" frameborder="0" scrolling="no"></iframe>
+        <iframe class = "calendar" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.848113624844!2d-73.97335718490288!3d40.897146534205376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f110a7e469c1%3A0x8fc7720408c28c22!2s128%20Engle%20St%20b%2C%20Englewood%2C%20NJ%2007631!5e0!3m2!1sen!2sus!4v1643899868511!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         <h1 class = "title">Contact Us!</h1>
             <div class = "Email">
@@ -38,7 +38,7 @@
             </div>
 
             <?php
-            $to = "hlee22@colby.edu";
+            $to = "ujeiwellness@gmail.com";
             $subject = $_REQUEST["subject"];
             
             $message = "Email from: ".$_REQUEST["name"]. "\r\n\r\n\r\n";
@@ -68,10 +68,10 @@
                     <a href="https://www.instagram.com/ujeiwellness/"><nobr class="instafollow">Follow us on @UJeiWellness</nobr></a>
                     </div>
                     <div class="footer_column middle">
-                      <p><a href="UJEI_wellness_main.html#home">HOME</a></p>
+                      <p><a href="index.html#home">HOME</a></p>
                       <p><a href="UJEI_wellness_about.html">ABOUT</a></p>
-                      <P><a href="UJEI_wellness_main.html#gallery">GALLERY</a></P>
-                      <P><a href="UJEI_wellness_main.html#pricing">PRICING</a></P>
+                      <P><a href="index.html#gallery">GALLERY</a></P>
+                      <P><a href="index.html#pricing">PRICING</a></P>
                       <P><a href="UJEI_wellness_contact.html">CONTACT</a></P>
                     </div>
                     <div class="footer_column right">
